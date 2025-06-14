@@ -7,5 +7,56 @@ body {
 }
 
 h1 {
-    color: #333;
+    color: #ffa200;
+    font-size: 2.5em;
+    align-items: left;
+    padding: 5px;
+}
+
+.cabeza {
+    display: flex;
+  grid-area: header;
+  background-color: lightgoldenrodyellow;
+  color: white;
+  text-align: center;
+  border: 5px solid black;
+  position: fixed;
+  top: 5px;
+  left: 5%;
+  right: 5%;
+}
+.logo{
+    
+    width: 100px;
+    height: 100px;
+
+    right: 10%;
+}
+.imagen{
+    width: 100px;
+    height: 100px;
+    margin-right: 5%;
+    margin-left: 10%;
+}
+.cuerpo {
+  display: flex;
+  margin-top: 140px;
+  justify-content: space-between; 
+  margin-top: 140px;              
+  padding: 0 5%;                  
+  box-sizing: border-box;
+}
+
+.cajaizq, .cajader, .abajo {
+  background-color: lightgoldenrodyellow;
+  border: 5px solid black;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.abajo {
+   width: 90%;             
+  margin: 20px auto;       
+  display: flex;
+  justify-content: center;
 }
