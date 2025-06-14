@@ -1,0 +1,9 @@
+body {
+    background-image: url("img/fondo.jpg");
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: darkblue;
+}
